@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp">
+        <com.example.smartbj.view.InterceptScrollViewPager
+            android:id="@+id/vp_tpi_news_lunbo_pic"
+            android:layout_width="match_parent"
+            android:layout_height="175dp">
+
+        </com.example.smartbj.view.InterceptScrollViewPager>
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:background="#44000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:id="@+id/tv_tpi_news_pic_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="onenight in 北京"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/ll_tpi_news_pic_points"
+                android:paddingRight="8dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

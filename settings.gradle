@@ -1,0 +1,2 @@
+include ':app', ':SilidingMenu-master', ':xutils'
+include ':library'
