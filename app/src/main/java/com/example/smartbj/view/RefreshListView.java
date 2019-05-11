@@ -172,6 +172,9 @@ public class RefreshListView extends ListView {
         this.listener = listener;
     }
 
+    /**
+     * 接口
+     */
     public interface OnRefreshDataListener{
         void refresdData();
         void loadingMore();
